@@ -1,0 +1,11 @@
+﻿Eksperyment,Algorytm,alpha,gamma,eps_decay,episodes,cliff_penalty,Śr. nagroda (eval),Śr. kroki (eval),Śr. nagroda trening (ost.100),Std trening (ost.100),Wniosek
+E1,Q-learning,0.1,0.95,0.995,800,-100.0,-13.0,13.0,-25.61,33.86,"Q-learning: trasa przy klifie; SARSA: trasa bezpieczna, wyższe nagrody w treningu"
+E1,SARSA,0.1,0.95,0.995,800,-100.0,-17.0,17.0,-18.87,9.95,"Q-learning: trasa przy klifie; SARSA: trasa bezpieczna, wyższe nagrody w treningu"
+E2,Q-learning,0.5,0.95,0.995,800,-100.0,-13.0,13.0,-32.12,43.36,Q-learning nadal optymalny; SARSA niestabilna — polityka finalna nie dochodzi do celu (0%)
+E2,SARSA,0.5,0.95,0.995,800,-100.0,-200.0,200.0,-200.99,9.85,Q-learning nadal optymalny; SARSA niestabilna — polityka finalna nie dochodzi do celu (0%)
+E3,Q-learning,0.1,0.95,0.999,800,-100.0,-13.0,13.0,-442.89,412.86,Q-learning odporny na długą eksplorację; SARSA bez spójnej polityki (0% sukcesów)
+E3,SARSA,0.1,0.95,0.999,800,-100.0,-200.0,200.0,-258.1,111.21,Q-learning odporny na długą eksplorację; SARSA bez spójnej polityki (0% sukcesów)
+E4,Q-learning,0.1,0.95,0.995,800,-10.0,-13.0,13.0,-15.71,5.86,"Upadki tanie: krzywe gładkie, Q-learning w treningu lepszy od SARSY; przewaga bezpiecznej trasy znika"
+E4,SARSA,0.1,0.95,0.995,800,-10.0,-17.0,17.0,-17.79,1.44,"Upadki tanie: krzywe gładkie, Q-learning w treningu lepszy od SARSY; przewaga bezpiecznej trasy znika"
+E5,Q-learning,0.1,0.95,0.995,2000,-100.0,-13.0,13.0,-35.98,50.09,Po ~400 epizodach plateau — dalszy trening nie poprawia polityki (malejące korzyści)
+E5,SARSA,0.1,0.95,0.995,2000,-100.0,-17.0,17.0,-21.01,17.29,Po ~400 epizodach plateau — dalszy trening nie poprawia polityki (malejące korzyści)

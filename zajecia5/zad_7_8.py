@@ -3,13 +3,6 @@ Eksperymenty do zadań 7 i 8 z instrukcji laboratorium.
 
 Zadanie 7: zmiana parametrów wybranych modeli i porównanie wyników.
 Zadanie 8: dodanie nowego modelu regresji oraz test usunięcia cechy wejściowej.
-
-Skrypt korzysta z funkcji zdefiniowanych w regresja_auto_mpg_lab.py, dzięki czemu
-przetwarzanie danych (imputacja, skalowanie, one-hot) jest identyczne jak w
-oryginalnym programie. Wyniki zapisywane są w katalogu ./wyniki_regresji.
-
-Uruchomienie:
-    python eksperymenty_modyfikacje.py
 """
 
 from __future__ import annotations
